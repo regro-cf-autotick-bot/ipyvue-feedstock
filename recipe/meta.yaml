@@ -1,13 +1,13 @@
 {% set name = "ipyvue" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: aed73ac831b492725318954c1832649963a69402e8b73487e9bb2372b8394cae
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 66dc979ccc8560d1a7d8cb5f24d8d521c380055d9cfef6fff54ee856c1f7729a
 
 build:
   noarch: python
